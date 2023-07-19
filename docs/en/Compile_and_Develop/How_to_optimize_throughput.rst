@@ -45,8 +45,8 @@ Users could choose one of the following methods to improve throughput performanc
     CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM=64
     CONFIG_ESP32_WIFI_TX_BA_WIN=32
     CONFIG_ESP32_WIFI_RX_BA_WIN=32
-    CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED=y
-    CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED=y
+    CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED=n
+    CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED=n
 
 **2. Enlarge UART buffer size**
 
